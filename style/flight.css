@@ -41,7 +41,7 @@ a {
 } */
 .navbar {
     font-size: large;
-    background-color: #d1bdd1bb;
+    background: linear-gradient(#868183,#ffffff00);
     position: fixed;
     width: 90%;
     margin-left: -10%;
@@ -159,6 +159,9 @@ margin-bottom: 5%;
 .all-ft{
     background-color: #84777790;
     padding-bottom: 1%;
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 .main-foot{
     padding: 2% 6% 10% 10%;
