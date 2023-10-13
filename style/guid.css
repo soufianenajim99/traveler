@@ -230,10 +230,8 @@ footer li{
     grid-area: card1;
     font-size:larger;
     font-weight: bolder;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    /* align-self: flex-start;
-    justify-self: stretch; */
-    /* height: 100%; */
+    box-shadow: 4px 8px rgba(0,0,0,0.2);
+        transition: 0.3s;
     
 }
 
@@ -242,6 +240,8 @@ footer li{
     border-radius: 5px;
     grid-area: card2;
     justify-self: stretch;
+    box-shadow: 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
 
 
 }
@@ -251,6 +251,8 @@ footer li{
     border-radius: 5px;
     grid-area: card3;
     justify-self: stretch;
+    box-shadow: 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
 
 }
 
@@ -258,6 +260,8 @@ footer li{
     border: 2px solid black;
     border-radius: 5px;
     grid-area: card4;
+    box-shadow: 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
 
 }
 
@@ -265,6 +269,12 @@ footer li{
     border: 2px solid black;
     border-radius: 5px;
     grid-area: card5;
+    box-shadow: 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+.card1:hover , .card2:hover , .card3:hover , .card4:hover , .card5:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
 

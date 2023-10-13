@@ -233,12 +233,41 @@ footer li{
 .frame{
     margin-bottom: 8%;
 }
-/* 
-.test{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    column-gap: 10%;
-    text-align: center;
-    font-size: small;
 
-} */
+.coment h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:250%;
+    font-weight: 600;
+    font-family: 'Young Serif';
+    line-height: 1.5em;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    font-size:300%;
+    font-weight: 600;
+    }
+    .coment .koi .frko{
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 4px 8px rgba(0,0,0,0.2);
+        transition: 0.3s;
+        padding-bottom: 10%;
+    }
+    
+    .coment .koi .frko:hover{
+    
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .first_a{
+        background-color: rgba(162, 174, 174, 0);
+        width: 50%;
+        height: 100%;
+        margin-top: 5%;
+        
+        /* color: black; */
+    }
+    .main_content{
+        text-align: center;
+        margin-right: 5%;
+    }
