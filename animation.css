@@ -1,0 +1,15 @@
+@keyframes pulse {
+    0% {
+        color: black;
+        background-color: #ebeaeb;
+    }
+    100% {
+        color: #ebeaeb;
+        background-color: black;
+    }
+}
+
+.navbar-right:hover, .navbar-right:hover a{
+    animation: pulse 0.5s;
+    animation-direction: alternate;
+}
